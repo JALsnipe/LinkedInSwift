@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7658386A1C9C380A00599433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765838691C9C380A00599433 /* AppDelegate.swift */; };
+		7658386C1C9C380B00599433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7658386B1C9C380B00599433 /* ViewController.swift */; };
+		7658386F1C9C380B00599433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7658386D1C9C380B00599433 /* Main.storyboard */; };
+		765838711C9C380B00599433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765838701C9C380B00599433 /* Assets.xcassets */; };
+		765838741C9C380B00599433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765838721C9C380B00599433 /* LaunchScreen.storyboard */; };
+		7658387C1C9C3A3D00599433 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7658387B1C9C3A3D00599433 /* linkedin-sdk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		765838661C9C380A00599433 /* LinkedInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		765838691C9C380A00599433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7658386B1C9C380B00599433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7658386E1C9C380B00599433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		765838701C9C380B00599433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		765838731C9C380B00599433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		765838751C9C380B00599433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7658387B1C9C3A3D00599433 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		7658387E1C9C3BBA00599433 /* LinkedInSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedInSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		765838631C9C380A00599433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7658387C1C9C3A3D00599433 /* linkedin-sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7658385D1C9C380A00599433 = {
+			isa = PBXGroup;
+			children = (
+				765838681C9C380A00599433 /* LinkedInSwift */,
+				765838671C9C380A00599433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		765838671C9C380A00599433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765838661C9C380A00599433 /* LinkedInSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		765838681C9C380A00599433 /* LinkedInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7658387B1C9C3A3D00599433 /* linkedin-sdk.framework */,
+				765838691C9C380A00599433 /* AppDelegate.swift */,
+				7658386B1C9C380B00599433 /* ViewController.swift */,
+				7658386D1C9C380B00599433 /* Main.storyboard */,
+				765838701C9C380B00599433 /* Assets.xcassets */,
+				765838721C9C380B00599433 /* LaunchScreen.storyboard */,
+				765838751C9C380B00599433 /* Info.plist */,
+				7658387E1C9C3BBA00599433 /* LinkedInSwift-Bridging-Header.h */,
+			);
+			path = LinkedInSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		765838651C9C380A00599433 /* LinkedInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765838781C9C380B00599433 /* Build configuration list for PBXNativeTarget "LinkedInSwift" */;
+			buildPhases = (
+				765838621C9C380A00599433 /* Sources */,
+				765838631C9C380A00599433 /* Frameworks */,
+				765838641C9C380A00599433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInSwift;
+			productName = LinkedInSwift;
+			productReference = 765838661C9C380A00599433 /* LinkedInSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7658385E1C9C380A00599433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 4everwild;
+				TargetAttributes = {
+					765838651C9C380A00599433 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 765838611C9C380A00599433 /* Build configuration list for PBXProject "LinkedInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7658385D1C9C380A00599433;
+			productRefGroup = 765838671C9C380A00599433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765838651C9C380A00599433 /* LinkedInSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		765838641C9C380A00599433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765838741C9C380B00599433 /* LaunchScreen.storyboard in Resources */,
+				765838711C9C380B00599433 /* Assets.xcassets in Resources */,
+				7658386F1C9C380B00599433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765838621C9C380A00599433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7658386C1C9C380B00599433 /* ViewController.swift in Sources */,
+				7658386A1C9C380A00599433 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7658386D1C9C380B00599433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7658386E1C9C380B00599433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		765838721C9C380B00599433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765838731C9C380B00599433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		765838761C9C380B00599433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		765838771C9C380B00599433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		765838791C9C380B00599433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LinkedInSwift",
+				);
+				INFOPLIST_FILE = LinkedInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieberman.nyc.LinkedInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkedInSwift/LinkedInSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7658387A1C9C380B00599433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LinkedInSwift",
+				);
+				INFOPLIST_FILE = LinkedInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieberman.nyc.LinkedInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkedInSwift/LinkedInSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765838611C9C380A00599433 /* Build configuration list for PBXProject "LinkedInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765838761C9C380B00599433 /* Debug */,
+				765838771C9C380B00599433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765838781C9C380B00599433 /* Build configuration list for PBXNativeTarget "LinkedInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765838791C9C380B00599433 /* Debug */,
+				7658387A1C9C380B00599433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7658385E1C9C380A00599433 /* Project object */;
+}
